@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+      <name>Survey</name>
+      <Placemark id="plot-a">
+        <name>Plot A</name>
+        <ExtendedData>
+          <Data name="parcel_id"><value>A-1</value></Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                77.50,12.90,0 77.51,12.90,0 77.51,12.91,0 77.50,12.91,0 77.50,12.90,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Path</name>
+        <LineString>
+          <coordinates>77.50,12.90,0 77.51,12.91,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mark</name>
+        <Point>
+          <coordinates>77.505,12.905,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mixed</name>
+        <MultiGeometry>
+          <Point><coordinates>77.50,12.90,0</coordinates></Point>
+          <LineString><coordinates>77.50,12.90,0 77.51,12.90,0</coordinates></LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
